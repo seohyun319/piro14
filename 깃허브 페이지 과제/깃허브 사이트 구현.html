@@ -10,9 +10,22 @@
     
     <style>
 
-        
+    .arrow {
+        border: solid gray;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+
+
         body {
-            background-color: rgb(44, 44, 44);
+            background-color:rgb(43, 49, 55);
             font-family: 'Roboto Condensed', sans-serif;
             margin:0;
         }
@@ -30,7 +43,13 @@
             line-height: 40px;
             overflow:hidden;
             color:#ffffff;
-            background-color:#000000;
+            background-color:rgb(43, 49, 55);
+            padding-left: 10px;
+        }
+
+        #header_nav a { 
+            color:#ffffff;
+            margin-right: 5px;
         }
 
         #header_nav li{
@@ -50,10 +69,24 @@
             color:#ffffff;
         }
 
-        #header_nav .signup {
-            border-color: beige;
-            border-radius: 5px 5px;
+        #header_nav .sign span {
+            color:white
+        }
 
+        #header_nav #signup {
+            border-color: beige;
+            background-color: black;
+            border-radius: 5px 5px;
+            color: white;
+            height: 30px;
+
+        }
+
+        #header_nav .inputxt {
+            background-color: #6b6b6b;
+            color: #ffffff;
+            padding:5px;
+            border-radius: 5px 5px;
         }
 
         #content {
@@ -67,14 +100,32 @@
         #content .explain {
             width:380px;
             float:left;
-            margin: 80px 30px 0 80px;
+            margin: 100px 20px 0 80px;
         }
+
+        #content .explain p {
+            color:rgb(172, 172, 172)
+        }
+
+        #content .explain span {
+            color:white
+        }
+        
+
+        #content .explain [p~=open source] {
+            color:white;
+        }
+
+        #content .explain [p~=business]{
+            color:white;
+        }
+
 
         #content .user {
             width:340px;
             float:left;
             color: black;
-            margin: 30px 80px 0 30px;
+            margin: 30px 80px 0 20px;
             background-color: #ffffff;
             border-radius: 5px 5px;
             height: 400px;
@@ -93,8 +144,11 @@
             border-radius:5px 5px;
         }
 
-        input:focus {
+        input:enabled {
             background-color: rgb(219, 255, 255);
+            border-radius:5px 5px;
+            border-color: rgb(102, 102, 102);
+            border-style:solid;
         }
 
         #content .email {
@@ -118,7 +172,8 @@
             height: 60px;
             margin : 15px 0;
             border-radius:5px 5px;
-            background-color: rgb(128, 196, 60);
+            border-style: none;
+            background-color: rgb(73, 212, 45);
             color: #ffffff;
         }
 
@@ -143,18 +198,17 @@
             <div>
                 <ul>
                     <li><div class="logo"><img src="logo.png" alt="logo"/></div></li>
-                    <li>Why GitHub?</li>
+                    <li><a href="#none">Why GitHub?<i class="arrow down"></i></a></li>
                     <li>Team</li>
                     <li>Enterprise</li>
-                    <li>Explore</li>
+                    <li><a href="#none">Explore</a><i class="arrow down"></i></li>
                     <li>Marketplace</li>
-                    <li>Pricing</li>
+                    <li><a href="#none">Pricing</a><i class="arrow down"></i></li>
                 </ul>
                 <ul class="sign">
-                    <li><input type="text" />
-                    <button type="submit" class="btn_click"><span class="txt_search">Search GitHub</span></button>
+                    <li><span><input type="text" class="inputxt" placeholder="Search GitHub" /></span>
                     <li><a href="#none">Sign in</a></li>
-                    <li><a href="#none" class="signup">Sign up</a></li>
+                    <li><button id="signup">Sign up</button></li>
                 </ul>
             </div>
 
@@ -170,7 +224,7 @@
             </h1>
             <p>
                 GitHub is a development platform inspired by the <br />
-                way you work. From open Source to business, you <br />
+                way you work. From <span>open Source</span> to <span>business</span>, you <br />
                 can host and revie code, manage projects, and <br />
                 build software alongside 50 million developers.
             </p>
@@ -180,11 +234,11 @@
             <div class="user_content">
                 <div class="bt">
                     Username<br />
-                    <input type="text" class="username"/><br />
+                    <input type="text" class="username" placeholder="KimSeoHyun"/><br />
                     Email<br />
-                    <input type="text" class="email"/><br />
+                    <input type="text" class="email" disabled="disabled"/><br />
                     Password<br />
-                    <input type="password" class="pw"/><br />
+                    <input type="password" class="pw" value="0000000000"/><br />
                 </div>
                 <div class="ct">
                     Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter. 
