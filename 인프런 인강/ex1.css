@@ -1,0 +1,15 @@
+﻿#wrap #header {
+  background-color: #ffff00;
+  text-align: center;
+  height: 200px;
+}
+#wrap #section {
+  background-color: #084a2a;
+  color: white;
+  height: 300px;
+}
+#wrap #footer {
+  height: 100px;
+  background-color: orange;
+  text-align: center;
+}
