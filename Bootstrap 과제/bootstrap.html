@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<html>
+
+<head>
+    <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    </style>
+
+    <meta charset="utf-8">
+    <title>Bootstrap Pirogramming14</title>
+    <meta name="description" content="This is a free Bootstrap exercise for Pirogramming14" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/ionicons.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    
+</head>
+
+<body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#header"><i class="ion-ios-analytics-outline"></i>
+                    Pirogramming14</a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#section1">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section2">Highlights</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section2-2">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section3">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#section4">Contact</a>
+                    </li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="A Bootstrap exercise"
+                            href="#aboutModal" data-target="#modal1">About</a>
+
+                    </li>
+                </ul>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="header" class="container-fluid d-flex"
+        style="height:800px; position:relative; 
+        background-image: url(./background.jpeg); background-size: 1080 auto; float:none;">
+        <script src="https://kit.fontawesome.com/131f1805d6.js" crossorigin="anonymous"></script>
+        
+        <!--class="d-flex flex-column justify-content-center align-items-center"
+        -->
+
+        <div class="text-center" style="padding-top: 300px; color: white;" >  
+            <h1> Pirogramming14</h1>
+            <p>Cheer up</p>
+            <p>
+                <a class="btn btn-Light" href="#section1" role="button"
+                style="border: white solid 1px; border-radius: 20px; color:white;">
+                Get Started</a>
+                
+        </div>
+    </div>
+
+    <div id="section1" class="container-fluid d-flex text-center" style="background-color: rgb(100, 100, 100); height: 600px;
+    grid-auto-rows:auto;">
+        <div>
+            <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+        </div>
+        <div>
+            <h2 style="color: red;">Built On the Bootstrap Grid</h2>
+            <p style="color: white;">
+                Bootstrap's responsive grid comes in 4 sizes or "breakpoints": tiny (xs),<br /> small(sm), medium(md) and large(lg). These 4 grid sizes enable
+                you create <br />responsive layouts that behave accordingly on different devices.
+            </p>
+            <a href="#section2-2" class="btn btn-Light active" role="button" style="border-radius: 30px;  background-color: white; color: black;">
+                Learn More</a>
+        </div>
+        
+    </div>
+
+    <div id="section2" class="container-fluid d-flex align-items-center justify-content-center" 
+    style="background-color: rgb(56, 56, 56); grid-auto-rows:auto;">
+        <div>
+            <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+        </div>
+        <div class="row">
+            <h2 class="border-bottom text-center" style="color: red;">Flexible Layouts</h2>
+        </div><p class="row"></p>        
+
+        <div class="row align-items-center justify-content-center" style="color: white;">   
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="col-xs-12 col-md-4 text-center">
+                    <div><i class="fas fa-desktop" style="font-size: 60pt;"></i></div>
+                    <h3>responsive</h3>
+                    <p>Your site looks good everywhere</p>
+                </div>
+                <div class="col-xs-12 col-md-4 text-center">
+                    <div><i class="fab fa-sass" style="font-size: 60pt;"></i></div>
+                    <h3>Customizable</h3>
+                    <p>Easy to theme and customize with SASS</p>
+                </div>
+                <div class="col-xs-12 col-md-4 text-center">
+                    <div><i class="far fa-star" style="font-size: 60pt;"></i></div>
+                    <h3>Consistent</h3>
+                    <p>A mature, well-tested, stable codebase</p>
+                </div>
+            </div>   
+            <div class="col-sm-3"></div>      
+            
+          </div>
+            
+          <div id="section2-2">
+            <div>
+                <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+            </div>
+            <div class="text-center row align-items-center justify-content-center">
+                
+                <div class="col-xs-12 col-sm-6 col-md-4" id="pic1">
+                    <div id ="m1">
+                        <a href="#pic_1" data-toggle="modal" ><img src="https://picsum.photos/id/234/380/300">
+                            <i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="pic2">
+                    <div id ="m2">
+                        <a href="#pic_2" data-toggle="modal" ><img src="https://picsum.photos/id/931/380/300">
+                            <i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="pic3">
+                    <div id ="m3">
+                        <a href="#pic_3" data-toggle="modal" ><img src="https://picsum.photos/id/654/380/300">
+                            <i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="pic4">
+                    <div id ="m4">
+                        <a href="#pic_4" data-toggle="modal" ><img src="https://picsum.photos/id/341/380/300">
+                            <i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="pic5">
+                    <div id ="m5">
+                        <a href="#pic_5" data-toggle="modal" ><img src="https://picsum.photos/id/322/380/300">
+                            <i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4" id="pic6">
+                    <div id ="m6">
+                        <a href="#pic_6" data-toggle="modal" ><img src="https://picsum.photos/id/543/380/300">
+                            <i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+        <div>
+            <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+        </div>
+        
+    </div>
+
+    <div id="section3" class="container-fluid d-flex align-items-center justify-content-center" 
+    style="background-color: rgb(56, 56, 56); grid-auto-rows:auto;">    
+    <div>
+        <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+    </div>    
+    <div class="row">
+        <h2 class="border-bottom text-center" style="color: red;">Features</h2>
+    </div>
+    
+    <div class="row align-items-center justify-content-center" style="color: white;">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div>
+                <h3 class="col-xs-12">Simple</h3>
+                <div class="row">
+                    <p class="col-xs-10">What could be easier? Get started fast with bootstrap.</p>
+                    <i class="fas fa-bolt col-xs-2" style="font-size: 30pt;"></i><br />
+                </div>
+            </div>
+            <div>
+                <h3 class="col-xs-12">Free</h3>
+                <div class="row">
+                    <a href="#nice" data-toggle="modal" style="color: violet;">
+                    <i class="fas fa-cloud-download-alt col-xs-2" style="font-size: 30pt;"></i></a>
+                    <p class="col-xs-10">Yes, please. Grab it for yourself, and make something awesome with this.</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="col-xs-12">Unique</h3>
+                <div class="row">
+                    <p class="col-xs-10">Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
+                    <i class="fas fa-snowflake col-xs-2" style="font-size: 30pt;"></i>                    
+                </div>
+                
+            </div>        
+            <div>
+                <h3 class="col-xs-12">Popular</h3>
+                <div class="row">
+                    <i class="far fa-heart col-xs-2" style="font-size: 30pt;"></i>
+                    <p class="col-xs-10">There's good reason why Bootstrap is the most used frontend framework in the world.</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="col-xs-12">Tested</h3>
+                <div class="row">
+                    <p class="col-xs-10">Bootstrap is matured and well-tested. It's a stable codebase that provides consistency.</p>
+                    <i class="fas fa-flask col-xs-2"style="font-size: 30pt;" ></i>
+                </div>                
+                <div>
+                    <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+        
+        
+    </div>
+    
+
+
+        
+    </div>
+
+    <div id="section4" class="container-fluid d-flex row align-items-center justify-content-center text-center" 
+    style="background-color: rgb(14, 14, 14); grid-auto-rows:auto;">    
+        <div>
+            <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+        </div>    
+        <div class="row">
+            <h2 class="border-bottom text-center" style="color: red;">Get Started</h2>
+        </div>
+        <a href="#header" class="btn btn-Light active" role="button" style="border-radius: 30px;  background-color: white; color: black;">
+            Free Download</a><p class="row"></p> <p class="row"></p> 
+        <div style="color: white;">
+            <p>BOOTSTRAP IS BASED ON THESE STANDARDS</p><p class="row"></p> <p class="row"></p> 
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <div class="col-xs-6 col-sm-3 col-md-3 ">
+                    <div><i class="fab fa-html5" style="font-size: 60pt;"></i></div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div><i class="fab fa-sass" style="font-size: 60pt;"></i></div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div><i class="fab fa-js" style="font-size: 60pt;"></i></div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <div><i class="fab fa-node-js" style="font-size: 60pt;"></i></div>
+                </div>
+            </div>
+            <div class="col-sm-2"></div>
+            
+        </div>
+        <div>
+            <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+        </div>
+        
+    </div>
+
+    <div id="section5" class="container-fluid d-flex" 
+    style="background-color: rgb(14, 14, 14); grid-auto-rows:auto;">    
+        <div>
+            <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+        </div>    
+        <div class="text-center" style="color: white;">
+            <h2>Get in Touch</h2>
+            <p>We love feedback. Fill out the form below and we'll get back to you as soon as possible.</p>
+        </div>
+        
+        <div class="info">
+            <form class="form-inline text-center">
+                <div class="row">
+                    <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Phone">
+                </div>
+                </div>
+                
+            </form>    
+            <form>
+                <div class="form-group">
+                    <div class="col-sm-offset-1 col-sm-10 col-xs-12 col-md-10">
+                        <textarea class="form-control" rows="8" placeholder="Your message here.."></textarea>
+                        <!--style="max-width:680px;"-->
+                    </div>
+                    <p class="row"></p>
+                    <div>
+                        <div class="text-center">
+                            <a class="btn btn-Light active btn-m" href="#nice" data-toggle="modal" role="button" type="submit"
+                            style="border: white solid 1px; border-radius: 20px;  color:white;">
+                            Send <i class="fas fa-paper-plane"></i></a>
+                        </div> 
+                    </div>
+                    
+
+
+                </div>
+            </form>
+
+
+
+
+            <div style="color: white;">
+                <div>
+                    <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 ">
+                    <h4>Information</h4>
+                    <div style="color: violet; list-style: none;">
+                        <li>Products</li>
+                        <li>Services</li>
+                        <li>Benefits</li>
+                        <li>Developers</li>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3">
+                    <h4>About</h4>
+                    <div style="color: violet; list-style: none;">
+                        <li>Contact Us</li>
+                        <li>Delivery Information</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <h4>Stay Posted</h4>
+                    <div class="info">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Tell us your email">
+                            </div>
+                            <div class="col-sm-8">
+                                <a class="btn btn-Light active" href="#nice" data-toggle="modal" role="button" type="submit"
+                                style="border: white solid 1px;  border-radius: 20px; color:white;">
+                                Subscribe for updates</a>
+                            </div> 
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3">
+                    <h4 style="float:right;">Follow</h4>
+                    <div class="row"></div>
+                    <div style="color: violet; ">
+                        <p><i class="fab fa-twitter" style="font-size: 30pt; float: right; padding: 0 10px;"></i></p>
+                        <p><i class="fab fa-facebook" style="font-size: 30pt; float: right; padding: 0 10px;"></i></p>
+                        <p><i class="fab fa-internet-explorer" style="font-size: 30pt; float: right; padding: 0 10px;"></i></p>
+                    </div>
+                    <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+                    <div class="row" style="float: right;">
+                        <a href="#" style="color: violet;">Bootstrap</a>
+                        ©2021 Pirogramming14
+                    </div>
+                </div>
+                <div>
+                    <p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p><p class="row"></p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="modal fade text-center" id="modal1" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color: black; color: white;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">피로그래밍</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>너무 힘들어요....</br>잠 못 잔 거 며칠 째인지 모르겠어요....</p>
+                    </div>
+                    <p class="row"></p>
+                    <a href="#" style="color: red;">Download</a>
+                    <p class="row"></p><p class="row"></p>
+                    <div class="modal-footer" style="align-content: center;">
+                        <button type="button" class="btn btn-Light" data-dismiss="modal">OK</button>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="modal fade" id="pic_1" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color:black; text-align: center;">
+                    <img src="https://picsum.photos/id/234/380/300" style="margin:0px; border:0px; justify-content:center;"/>
+                    <div class="modal-footer" style="display:flex;  justify-content:center;">
+                        <button type="button"  data-dismiss="modal" style=" color: white; background-color:transparent; padding:0px 15px; border-radius:20px; border: solid white 1px;" >close x </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="modal fade" id="pic_2" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color:black; text-align: center;">
+                    <img src="https://picsum.photos/id/931/380/300" style="margin:0px; border:0px; justify-content:center;"/>
+                    <div class="modal-footer" style="display:flex;  justify-content:center;">
+                        <button type="button"  data-dismiss="modal" style=" color: white; background-color:transparent; padding:0px 15px; border-radius:20px; border: solid white 1px;" >close x </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="modal fade" id="pic_3" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color:black; text-align: center;">
+                    <img src="https://picsum.photos/id/654/380/300" style="margin:0px; border:0px; justify-content:center;"/>
+                    <div class="modal-footer" style="display:flex;  justify-content:center;">
+                        <button type="button"  data-dismiss="modal" style=" color: white; background-color:transparent; padding:0px 15px; border-radius:20px; border: solid white 1px;" >close x </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="modal fade" id="pic_4" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color:black; text-align: center;">
+                    <img src="https://picsum.photos/id/341/380/300" style="margin:0px; border:0px; justify-content:center;"/>
+                    <div class="modal-footer" style="display:flex;  justify-content:center;">
+                        <button type="button"  data-dismiss="modal" style=" color: white; background-color:transparent; padding:0px 15px; border-radius:20px; border: solid white 1px;" >close x </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="modal fade" id="pic_5" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color:black; text-align: center;">
+                    <img src="https://picsum.photos/id/322/380/300" style="margin:0px; border:0px; justify-content:center;"/>
+                    <div class="modal-footer" style="display:flex;  justify-content:center;">
+                        <button type="button"  data-dismiss="modal" style=" color: white; background-color:transparent; padding:0px 15px; border-radius:20px; border: solid white 1px;" >close x </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <div class="modal fade" id="pic_6" role="dialog">
+            <div class="modal-dialog">    
+                <div class="modal-content" style="background-color:black; text-align: center;">
+                    <img src="https://picsum.photos/id/543/380/300" style="margin:0px; border:0px; justify-content:center;"/>
+                    <div class="modal-footer" style="display:flex;  justify-content:center;">
+                        <button type="button"  data-dismiss="modal" style=" color: white; background-color:transparent; padding:0px 15px; border-radius:20px; border: solid white 1px;" >close x </button>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+
+
+
+        <div class="modal fade text-center" id="nice" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" style="background-color: black; color: white;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"></button>
+                        <h4 class="modal-title">Nice Job!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>You clicked the button, but it doesn't actually go anywhere.</p>
+                    </div>
+                    <p class="row"></p>
+                    <a href="#" style="color: red;">Learn more of Bootstrap</a>
+                    <p class="row"></p><p class="row"></p>
+                    <div class="modal-footer" style="align-content: center;">
+                        <button type="button" class="btn btn-Light" data-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+         
+    
+
+
+
+
+    </div>
+
+
+    
+
+
+
+ 
+
+
+
+  
+
+   <!--scripts loaded here -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.easing.min.js"></script>
+    <script src="./js/wow.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
